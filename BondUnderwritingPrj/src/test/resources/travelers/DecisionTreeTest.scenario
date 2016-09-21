@@ -21,8 +21,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>9</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>29</executionTimeResult>
+      <numberOfRulesFired>3</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -39,13 +39,8 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 18:48:33.334 UTC</lastRunResult>
-  <rules>
-    <string>BondDecisionTree_0</string>
-    <string>BondDecisionTree_1</string>
-    <string>OtherValidations2</string>
-    <string>OtherValidations</string>
-  </rules>
+  <lastRunResult>2016-09-21 23:31:54.375 UTC</lastRunResult>
+  <rules/>
   <inclusive>true</inclusive>
   <packageName>travelers</packageName>
   <imports>
