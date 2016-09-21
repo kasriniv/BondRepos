@@ -1,2 +1,12 @@
 package travelers;
 
+rule "BondDecisionTree_0"
+	when 
+		high : BondHighLevelDO(bt : businessType == "Fronted", bd1 : bondDetails == "NB")
+then 
+end
+rule "BondDecisionTree_1"
+	when 
+		high : BondHighLevelDO(bt2 : businessType == "Domestic", bni : billandIssue == "PC")
+then 
+end
