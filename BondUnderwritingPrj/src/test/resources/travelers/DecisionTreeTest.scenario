@@ -21,7 +21,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>8</executionTimeResult>
+      <executionTimeResult>9</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -39,7 +39,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 18:45:17.976 UTC</lastRunResult>
+  <lastRunResult>2016-09-21 18:47:50.888 UTC</lastRunResult>
   <rules>
     <string>BondDecisionTree_0</string>
     <string>BondDecisionTree_1</string>
