@@ -5,8 +5,6 @@ import java.lang.Number;
 rule "PremiumValidations"
 	dialect "mvel"
 	ruleflow-group "premiumvalidation"
-	no-loop false
-	lock-on-active false
 	when
 		Bond( )
 		Transaction( commissionrate > 10 , specialcommission > 500 )
@@ -16,5 +14,4 @@ rule "PremiumValidations"
 				setEligible( true ), 
 				setReason( "Passed Premium Validation" )
 		}
-		System.out.println("ktest");
 end
