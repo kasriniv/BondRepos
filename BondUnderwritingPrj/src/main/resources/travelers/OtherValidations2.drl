@@ -7,7 +7,7 @@ end
 rule "OtherValidations2"
 	dialect "mvel"
 no-loop true
-	agenda-group "othervalidations2"
+//	agenda-group "othervalidations2"
 when
 
 travelers.WhichAgendaGroupDO(agendaGroupName=="othervalidations")
