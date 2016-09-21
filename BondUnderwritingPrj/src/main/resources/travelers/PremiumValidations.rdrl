@@ -4,6 +4,8 @@ import java.lang.Number;
 
 rule "PremiumValidations"
 	dialect "mvel"
+	ruleflow-group "premiumvalidation"
 	when
+		Bond( )
 	then
 end
