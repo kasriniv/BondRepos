@@ -1,6 +1,6 @@
 
 package travelers;
-rule "OtherValidations"
+rule "OtherValidationsOriginal"
 	dialect "mvel"
 no-loop true
 	agenda-group "othervalidations"
