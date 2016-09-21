@@ -7,7 +7,7 @@ no-loop true
 	agenda-group "othervalidations2"
 when
 
-travelers.WhichAgendaGroupDO(agendaGroupName="othervalidations")
+travelers.WhichAgendaGroupDO(agendaGroupName=="othervalidations")
 
 then
 System.out.println("hi from othervalidations2");
