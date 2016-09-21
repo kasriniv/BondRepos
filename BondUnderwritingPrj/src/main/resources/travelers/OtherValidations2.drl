@@ -1,6 +1,9 @@
 
 
 package travelers;
+query "get whichdo"()
+    whichagendagroupdo : WhichAgendaGroupDO()
+end
 rule "OtherValidations2"
 	dialect "mvel"
 no-loop true
