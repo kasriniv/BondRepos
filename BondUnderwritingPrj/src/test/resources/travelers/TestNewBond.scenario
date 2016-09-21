@@ -23,7 +23,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>A</value>
+          <value>B</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -42,18 +42,26 @@
       <name>u</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>54</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>reason</fieldName>
           <expected>blah</expected>
+          <actualResult>AllGood</actualResult>
+          <successResult>false</successResult>
+          <explanation>[NewBondEligible] field [reason] was [AllGood] expected [blah].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>eligible</fieldName>
           <expected>true</expected>
+          <successResult>true</successResult>
+          <explanation>[NewBondEligible] field [eligible] was [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -62,6 +70,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-09-21 01:50:40.917 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
