@@ -7,5 +7,8 @@ rule "PremiumValidations"
 	ruleflow-group "premiumvalidation"
 	when
 		Bond( )
+		Transaction( commissionrate > 10 , specialcommission > 500 )
 	then
+		System.out.println("premiumvalidations done");
+		drools.setFocus("othervalidations");
 end
