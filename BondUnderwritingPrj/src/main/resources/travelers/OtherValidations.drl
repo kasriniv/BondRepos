@@ -2,7 +2,7 @@
 package travelers;
 rule "OtherValidations"
 	dialect "mvel"
-
+no-loop true
 	agenda-group "othervalidations"
 when
 travelers.Bond( )
