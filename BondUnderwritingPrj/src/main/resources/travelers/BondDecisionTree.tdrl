@@ -3,7 +3,10 @@ package travelers;
 rule "BondDecisionTree_0"
 	when 
 		high : BondHighLevelDO(bt : businessType == "Fronted", bd1 : bondDetails == "NB")
-then 
+	then 
+		WhichAgendaGroupDO $var0 = new WhichAgendaGroupDO();
+		$var0.setAgendaGroupName( "othervalidations" );
+		insert( $var0 );
 end
 rule "BondDecisionTree_1"
 	when 
