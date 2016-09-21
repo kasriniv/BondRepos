@@ -6,7 +6,7 @@ rule "PremiumValidations"
 	dialect "mvel"
 	ruleflow-group "premiumvalidation"
 	no-loop true
-	lock-on-active true
+	lock-on-active false
 	when
 		Bond( )
 		Transaction( commissionrate > 10 , specialcommission > 500 )
