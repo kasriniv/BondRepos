@@ -9,7 +9,20 @@
     <width>-1</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols/>
+  <attributeCols>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueString>newbond</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <attribute>ruleflow-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+  </attributeCols>
   <conditionPatterns>
     <Pattern52>
       <factType>Bond</factType>
@@ -125,27 +138,47 @@
       <acceptedTypes>
         <entry>
           <string>INSERT_ROW</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>INSERT_COLUMN</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>DELETE_ROW</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>DELETE_COLUMN</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>UPDATE_COLUMN</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
       </acceptedTypes>
     </filter>
-    <entries/>
+    <entries>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2016-09-21 01:46:55.293 UTC</dateOfEntry>
+        <userName>bpmsAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.AttributeColumnDetails">
+          <attribute>ruleflow-group</attribute>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.AttributeColumnDetails">
+          <attribute>ruleflow-group</attribute>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>defaultValue</fieldName>
+            <oldValue class="string"></oldValue>
+            <newValue class="string">newbond</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+    </entries>
   </auditLog>
   <imports>
     <imports/>
@@ -158,6 +191,11 @@
         <valueNumeric class="int">1</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -197,6 +235,11 @@
         <valueNumeric class="int">2</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
