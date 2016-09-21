@@ -23,7 +23,7 @@
       <fieldData>
         <field-data>
           <name>name</name>
-          <value>B</value>
+          <value>E</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -43,7 +43,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>54</executionTimeResult>
+      <executionTimeResult>11</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -70,7 +70,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 01:50:40.917 UTC</lastRunResult>
+  <lastRunResult>2016-09-21 01:51:09.608 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
