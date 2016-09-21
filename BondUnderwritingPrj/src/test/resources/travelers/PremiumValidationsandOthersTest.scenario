@@ -52,7 +52,7 @@
         </expect-field>
         <expect-field>
           <fieldName>reason</fieldName>
-          <expected>whatever</expected>
+          <expected>Passed Premium Validation</expected>
           <actualResult></actualResult>
           <successResult>false</successResult>
           <explanation>[NewBondEligible] field [reason] was [] expected [whatever].</explanation>
