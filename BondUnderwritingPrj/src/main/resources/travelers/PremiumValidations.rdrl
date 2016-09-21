@@ -10,7 +10,6 @@ rule "PremiumValidations"
 		Transaction( commissionrate > 10 , specialcommission > 500 )
 		nbe : NewBondEligible( )
 	then
-		System.out.println("premiumvalidations done");
 		drools.setFocus("othervalidations");
 		modify( nbe ) {
 				setEligible( true ), 
