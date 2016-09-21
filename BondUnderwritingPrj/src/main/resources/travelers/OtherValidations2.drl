@@ -1,2 +1,15 @@
-package travelers;
 
+
+package travelers;
+rule "OtherValidations2"
+	dialect "mvel"
+no-loop true
+	agenda-group "othervalidations2"
+when
+
+travelers.WhichAgendaGroupDO(agendaGroupName="othervalidations")
+
+then
+System.out.println("hi from othervalidations2");
+kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup("othervalidations").setFocus();
+end
