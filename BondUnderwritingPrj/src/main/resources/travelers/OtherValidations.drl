@@ -2,7 +2,7 @@
 package travelers;
 rule "OtherValidations"
 	dialect "mvel"
-	ruleflow-group "othervalidations"
+	//ruleflow-group "othervalidations"
 	agenda-group "othervalidations"
 when
 travelers.Bond( )
