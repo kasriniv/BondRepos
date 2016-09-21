@@ -51,17 +51,18 @@
         <expect-field>
           <fieldName>reason</fieldName>
           <expected>blah</expected>
-          <actualResult>AllGood</actualResult>
+          <actualResult>Bad Principal</actualResult>
           <successResult>false</successResult>
-          <explanation>[NewBondEligible] field [reason] was [AllGood] expected [blah].</explanation>
+          <explanation>[NewBondEligible] field [reason] was [Bad Principal] expected [blah].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>eligible</fieldName>
-          <expected>true</expected>
-          <successResult>true</successResult>
-          <explanation>[NewBondEligible] field [eligible] was [true].</explanation>
+          <expected>false</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[NewBondEligible] field [eligible] was [] expected [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -70,7 +71,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 01:51:09.608 UTC</lastRunResult>
+  <lastRunResult>2016-09-21 01:52:44.327 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
