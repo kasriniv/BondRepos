@@ -61,8 +61,8 @@
           <fieldName>eligible</fieldName>
           <expected>false</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[NewBondEligible] field [eligible] was [] expected [true].</explanation>
+          <successResult>true</successResult>
+          <explanation>[NewBondEligible] field [eligible] was [false].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -71,7 +71,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 01:52:44.327 UTC</lastRunResult>
+  <lastRunResult>2016-09-21 01:55:39.203 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
