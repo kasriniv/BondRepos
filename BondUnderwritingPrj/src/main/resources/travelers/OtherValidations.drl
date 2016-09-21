@@ -5,8 +5,8 @@ rule "OtherValidations"
 no-loop true
 	agenda-group "othervalidations"
 when
-//commenting for now travelers.Bond( )
-travelers.NewBondEligible( reason=="Passed Premium Validation")
+travelers.Bond( )
+travelers.NewBondEligible( reason=="Passed Premium Validation");
 
 then
 System.out.println("hi from othervalidations");
