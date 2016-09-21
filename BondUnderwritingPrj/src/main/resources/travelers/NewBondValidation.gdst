@@ -104,6 +104,7 @@
   <actionCols>
     <insert-fact-column52>
       <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -159,6 +160,28 @@
       </acceptedTypes>
     </filter>
     <entries>
+      <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
+        <dateOfEntry>2016-09-21 01:52:26.93 UTC</dateOfEntry>
+        <userName>bpmsAdmin</userName>
+        <userComment></userComment>
+        <isDeleted>false</isDeleted>
+        <details class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionInsertFactColumnDetails">
+          <columnHeader>Eligible</columnHeader>
+          <factType>NewBondEligible</factType>
+          <factField>eligible</factField>
+        </details>
+        <originalDetails class="org.drools.guvnor.client.modeldriven.dt52.auditlog.ActionInsertFactColumnDetails">
+          <columnHeader>Eligible</columnHeader>
+          <factType>NewBondEligible</factType>
+          <factField>eligible</factField>
+        </originalDetails>
+        <diffs>
+          <org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+            <fieldName>defaultValue</fieldName>
+            <newValue class="boolean">true</newValue>
+          </org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImpl>
+        </diffs>
+      </org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
       <org.drools.guvnor.client.modeldriven.dt52.auditlog.UpdateColumnAuditLogEntry>
         <dateOfEntry>2016-09-21 01:46:55.293 UTC</dateOfEntry>
         <userName>bpmsAdmin</userName>
