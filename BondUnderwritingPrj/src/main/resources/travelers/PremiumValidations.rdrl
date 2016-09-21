@@ -10,7 +10,6 @@ rule "PremiumValidations"
 		Transaction( commissionrate > 10 , specialcommission > 500 )
 		nbe : NewBondEligible( )
 	then
-		drools.setFocus("othervalidations");
 		modify( nbe ) {
 				setEligible( true ), 
 				setReason( "Passed Premium Validation" )
