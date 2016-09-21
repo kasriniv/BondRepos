@@ -20,12 +20,17 @@
       <name>boh</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>7</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>agendaGroupName</fieldName>
           <expected>othervalidations</expected>
+          <successResult>true</successResult>
+          <explanation>[WhichAgendaGroupDO] field [agendaGroupName] was [othervalidations].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -34,6 +39,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-09-21 18:29:47.494 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
