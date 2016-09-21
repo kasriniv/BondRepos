@@ -5,7 +5,7 @@ rule "OtherValidations"
 no-loop true
 	agenda-group "othervalidations"
 when
-travelers.Bond( )
+//commenting for now travelers.Bond( )
 travelers.NewBondEligible( reason=="Passed Premium Validation")
 
 then
