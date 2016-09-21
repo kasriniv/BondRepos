@@ -35,26 +35,36 @@
       <name>nbe</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>5</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>eligible</fieldName>
           <expected>true</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[NewBondEligible] field [eligible] was [] expected [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
         <expect-field>
           <fieldName>reason</fieldName>
           <expected>whatever</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[NewBondEligible] field [reason] was [] expected [whatever].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>NewBondEligible</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-09-21 03:04:55.120 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
