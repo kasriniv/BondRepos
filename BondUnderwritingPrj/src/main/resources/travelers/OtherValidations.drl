@@ -1,2 +1,13 @@
+
 package travelers;
+rule "OtherValidations"
+	dialect "mvel"
+	ruleflow-group "othervalidations"
+	agenda-group "othervalidations"
+when
+travelers.Bond( )
+
+then
+System.out.println("hi from othervalidations");
+end
 
