@@ -5,6 +5,7 @@ import java.lang.Number;
 rule "PremiumValidations"
 	dialect "mvel"
 	ruleflow-group "premiumvalidation"
+	no-loop true
 	when
 		Bond( )
 		Transaction( commissionrate > 10 , specialcommission > 500 )
