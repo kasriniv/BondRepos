@@ -13,9 +13,9 @@ when
 travelers.WhichAgendaGroupDO(agendaGroupName=="othervalidations")
 
 then
-//Bond $var0 = new Bond();
+Bond $var0 = new Bond();
 		
-//		insert( $var0 );
+		insert( $var0 );
 		
 System.out.println("hi from othervalidations2");
 kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup("othervalidations").setFocus();
