@@ -1,0 +1,9 @@
+package travelers;
+
+import java.lang.Number;
+
+rule "LowPriorityRule"
+	dialect "mvel"
+	when
+	then
+end
