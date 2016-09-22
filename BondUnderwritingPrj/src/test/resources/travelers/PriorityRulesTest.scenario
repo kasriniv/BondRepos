@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>highPriority</name>
-          <value>true</value>
+          <value>false</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -16,10 +16,14 @@
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>highpriorityrule</name>
+      <name>lowpriorityrule</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>0</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
   </fixtures>
+  <lastRunResult>2016-09-22 17:00:46.725 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
