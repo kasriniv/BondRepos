@@ -9,21 +9,12 @@ public class RequestDO implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   private travelers.BondHighLevelDO bondHighLevelDO;
    private java.lang.Boolean highPriority;
+
+   private java.lang.String comments;
 
    public RequestDO()
    {
-   }
-
-   public travelers.BondHighLevelDO getBondHighLevelDO()
-   {
-      return this.bondHighLevelDO;
-   }
-
-   public void setBondHighLevelDO(travelers.BondHighLevelDO bondHighLevelDO)
-   {
-      this.bondHighLevelDO = bondHighLevelDO;
    }
 
    public java.lang.Boolean getHighPriority()
@@ -36,11 +27,20 @@ public class RequestDO implements java.io.Serializable
       this.highPriority = highPriority;
    }
 
-   public RequestDO(travelers.BondHighLevelDO bondHighLevelDO,
-         java.lang.Boolean highPriority)
+   public java.lang.String getComments()
    {
-      this.bondHighLevelDO = bondHighLevelDO;
+      return this.comments;
+   }
+
+   public void setComments(java.lang.String comments)
+   {
+      this.comments = comments;
+   }
+
+   public RequestDO(java.lang.Boolean highPriority, java.lang.String comments)
+   {
       this.highPriority = highPriority;
+      this.comments = comments;
    }
 
 }
