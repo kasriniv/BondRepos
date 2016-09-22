@@ -36,8 +36,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>5</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>9</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -45,8 +45,8 @@
           <fieldName>eligible</fieldName>
           <expected>true</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[NewBondEligible] field [eligible] was [] expected [true].</explanation>
+          <successResult>true</successResult>
+          <explanation>[NewBondEligible] field [eligible] was [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -54,8 +54,8 @@
           <fieldName>reason</fieldName>
           <expected>Passed Premium Validation</expected>
           <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[NewBondEligible] field [reason] was [] expected [whatever].</explanation>
+          <successResult>true</successResult>
+          <explanation>[NewBondEligible] field [reason] was [Passed Premium Validation].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -64,7 +64,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 03:04:55.120 UTC</lastRunResult>
+  <lastRunResult>2016-09-22 00:31:24.727 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
