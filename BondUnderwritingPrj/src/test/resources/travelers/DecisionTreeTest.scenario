@@ -21,8 +21,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>29</executionTimeResult>
-      <numberOfRulesFired>3</numberOfRulesFired>
+      <executionTimeResult>5</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -38,8 +38,20 @@
       <name>WhichAgendaGroupDO</name>
       <anonymous>true</anonymous>
     </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>reason</fieldName>
+          <expected>blah</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>NewBondEligible</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-21 23:31:54.375 UTC</lastRunResult>
+  <lastRunResult>2016-09-22 15:43:49.880 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>travelers</packageName>
