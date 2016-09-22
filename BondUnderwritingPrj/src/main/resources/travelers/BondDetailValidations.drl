@@ -3,7 +3,7 @@ package travelers;
 rule "BondDetailValidations"
 	dialect "mvel"
 no-loop true
-	agenda-group "othervalidations"
+	agenda-group "bonddetailvalidations"
 when
 travelers.Bond( )
 travelers.NewBondEligible( reason=="Passed Premium Validation")
