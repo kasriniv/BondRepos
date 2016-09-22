@@ -15,5 +15,5 @@ rule "PremiumValidations"
 				setEligible( true ), 
 				setReason( "Passed Premium Validation" )
 		}
-		kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup("othervalidations").setFocus();
+		kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup("bonddetailvalidations").setFocus();
 end
