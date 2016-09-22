@@ -10,7 +10,7 @@ travelers.NewBondEligible( reason=="Passed Premium Validation")
 
 then
 System.out.println("Passed BondDetailvalidations");
-modify travelers.NewBondEligible(){
+insert new travelers.NewBondEligible(){
   setEligible(true);
    setReason("BondDetailValidationPassed");
 }
