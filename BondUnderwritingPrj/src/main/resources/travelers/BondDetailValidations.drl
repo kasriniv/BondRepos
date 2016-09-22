@@ -6,16 +6,16 @@ no-loop true
 lock-on-active true
 	agenda-group "bonddetailvalidations"
 when
-travelers.Bond( )
-$neb:travelers.NewBondEligible( reason=="Passed Premium Validation")
+$b:travelers.Bond( )
+$neb:NewBondEligible( reason=="Passed Premium Validation")
 
 then
-System.out.println("Passed BondDetailvalidations");
-modify $neb{
+
+modify ($neb)
+{
 setEligible(true);
    setReason("BondDetailValidationPassed"); 
 }
-//travelers.NewBondEligible neb = new travelers.NewBondEligible( );
 
 end
 
