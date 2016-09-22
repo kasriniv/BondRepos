@@ -16,7 +16,14 @@ then
 Bond $var0 = new Bond();
 		
 		insert( $var0 );
+	Transaction $t=	new travelers.Transaction( );
+	t.setCommissionrate(22);
+	t.setSpecialcommission(600);
+	insert ($t);
+    NewBondEligible $neb=new	travelers.NewBondEligible( );
+    insert ($neb);
+    
 		
 System.out.println("hi from othervalidations2");
-kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup("othervalidations").setFocus();
+kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup("premiumvalidation").setFocus();
 end
