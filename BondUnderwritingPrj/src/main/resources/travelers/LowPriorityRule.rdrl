@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "LowPriorityRule"
 	dialect "mvel"
+	ruleflow-group "lowpriorityrule"
 	when
 		RequestDO( highPriority == false )
 	then
