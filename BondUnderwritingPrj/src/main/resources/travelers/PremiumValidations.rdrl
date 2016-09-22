@@ -9,7 +9,7 @@ rule "PremiumValidations"
 	when
 		Bond( )
 		Transaction( commissionrate > 10 , specialcommission > 500 )
-		nbe : NewBondEligible( )
+		nbe : NewBondEligible( eligible == null )
 	then
 		modify( nbe ) {
 				setEligible( true ), 
