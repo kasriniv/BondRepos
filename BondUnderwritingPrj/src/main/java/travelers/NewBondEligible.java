@@ -13,6 +13,8 @@ public class NewBondEligible implements java.io.Serializable
    private java.lang.Boolean eligible;
    private java.lang.String reason;
 
+   private java.lang.String reason2;
+
    public NewBondEligible()
    {
    }
@@ -47,12 +49,23 @@ public class NewBondEligible implements java.io.Serializable
       this.reason = reason;
    }
 
+   public java.lang.String getReason2()
+   {
+      return this.reason2;
+   }
+
+   public void setReason2(java.lang.String reason2)
+   {
+      this.reason2 = reason2;
+   }
+
    public NewBondEligible(int policynumber, java.lang.Boolean eligible,
-         java.lang.String reason)
+         java.lang.String reason, java.lang.String reason2)
    {
       this.policynumber = policynumber;
       this.eligible = eligible;
       this.reason = reason;
+      this.reason2 = reason2;
    }
 
 }
