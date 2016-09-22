@@ -15,29 +15,20 @@
       <name>rdo</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>lowpriorityrule</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>2</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>comments</fieldName>
-          <expected>hi</expected>
-          <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[RequestDO] field [comments] was [] expected [hi].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-      </fieldValues>
-      <name>RequestDO</name>
-      <anonymous>true</anonymous>
-    </expect-fact>
   </fixtures>
   <lastRunResult>2016-09-22 17:15:34.368 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <rules>
+    <string>HighPriorityRule</string>
+    <string>LowPriorityRule</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName>travelers</packageName>
   <imports>
     <imports/>
