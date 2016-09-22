@@ -6,7 +6,7 @@ no-loop true
 	agenda-group "othervalidations"
 when
 travelers.Bond( )
-//travelers.NewBondEligible( reason=="Passed Premium Validation")
+travelers.NewBondEligible( reason=="Passed Premium Validation")
 
 then
 System.out.println("hi from othervalidations");
