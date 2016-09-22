@@ -13,10 +13,6 @@ then
 System.out.println("Passed BondDetailvalidations");
 
  
- modify ($neb){
-     //setEligible(true);
-     setReason2("BondDetailValidationPassed");
- }
 
 end
 
