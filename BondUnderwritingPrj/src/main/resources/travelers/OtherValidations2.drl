@@ -16,11 +16,11 @@ then
 Bond $var0 = new Bond();
 		
 		insert( $var0 );
-	Transaction $t=	new travelers.Transaction( );
+	Transaction t=	new Transaction( );
 	t.setCommissionrate(22);
 	t.setSpecialcommission(600);
-	insert ($t);
-    NewBondEligible $neb=new	travelers.NewBondEligible( );
+	insert (t);
+    NewBondEligible $neb=new NewBondEligible( );
     insert ($neb);
     
 		
