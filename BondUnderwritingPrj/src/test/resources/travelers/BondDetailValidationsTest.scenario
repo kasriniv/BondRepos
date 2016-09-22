@@ -28,21 +28,6 @@
       <executionTimeResult>3</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>reason2</fieldName>
-          <expected>blah</expected>
-          <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[nbe] field [reason2] was [] expected [blah].</explanation>
-          <operator>==</operator>
-          <nature>1</nature>
-        </expect-field>
-      </fieldValues>
-      <name>nbe</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
   </fixtures>
   <lastRunResult>2016-09-22 12:42:54.716 UTC</lastRunResult>
   <rules/>
