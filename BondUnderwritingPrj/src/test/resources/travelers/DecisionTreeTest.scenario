@@ -21,8 +21,8 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>5</executionTimeResult>
-      <numberOfRulesFired>1</numberOfRulesFired>
+      <executionTimeResult>30</executionTimeResult>
+      <numberOfRulesFired>4</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
@@ -43,6 +43,15 @@
         <expect-field>
           <fieldName>reason</fieldName>
           <expected>blah</expected>
+          <actualResult>Passed Premium Validation</actualResult>
+          <successResult>false</successResult>
+          <explanation>[NewBondEligible] field [reason] was [Passed Premium Validation] expected [blah].</explanation>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>reason2</fieldName>
+          <expected>blah</expected>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -51,7 +60,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-22 15:43:49.880 UTC</lastRunResult>
+  <lastRunResult>2016-09-22 15:48:47.292 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>travelers</packageName>
