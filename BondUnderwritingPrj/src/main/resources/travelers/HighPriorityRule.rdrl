@@ -9,5 +9,7 @@ rule "HighPriorityRule"
 		rdo : RequestDO( highPriority == true )
 	then
 		System.out.println("quick, act fast, move it !! let's go!");
-		rdo.setComments( "highpriorityrule" );
+		modify( rdo ) {
+				setComments( "hi" )
+		}
 end
