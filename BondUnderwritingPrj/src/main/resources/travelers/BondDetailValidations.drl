@@ -14,7 +14,7 @@ System.out.println("Passed BondDetailvalidations");
 
  
  modify ($neb){
-     setEligible(true);
+     //setEligible(true);
      setReason2("BondDetailValidationPassed");
  }
 
