@@ -2,7 +2,7 @@
 package travelers;
 rule "BondDetailValidations"
 	dialect "mvel"
-//no-loop true
+no-loop true
 //lock-on-active true
 	agenda-group "bonddetailvalidations"
 when
