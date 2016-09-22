@@ -51,13 +51,10 @@
           <nature>0</nature>
         </expect-field>
         <expect-field>
-          <fieldName>reason</fieldName>
-          <expected>Passed Premium Validation</expected>
-          <actualResult></actualResult>
-          <successResult>true</successResult>
-          <explanation>[NewBondEligible] field [reason] was [Passed Premium Validation].</explanation>
+          <fieldName>reason2</fieldName>
+          <expected>blah</expected>
           <operator>==</operator>
-          <nature>1</nature>
+          <nature>0</nature>
         </expect-field>
       </fieldValues>
       <name>NewBondEligible</name>
