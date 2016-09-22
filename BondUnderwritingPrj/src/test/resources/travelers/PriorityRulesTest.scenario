@@ -19,11 +19,23 @@
       <name>highpriorityrule</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>0</executionTimeResult>
+      <executionTimeResult>5</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>comments</fieldName>
+          <expected>hi</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>RequestDO</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-22 17:00:46.725 UTC</lastRunResult>
+  <lastRunResult>2016-09-22 17:12:40.931 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
