@@ -25,11 +25,23 @@
       <name>bonddetailvalidations</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>3</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <executionTimeResult>7</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>reason2</fieldName>
+          <expected>blah</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>nbe</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-22 12:42:54.716 UTC</lastRunResult>
+  <lastRunResult>2016-09-22 12:49:42.508 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>travelers</packageName>
