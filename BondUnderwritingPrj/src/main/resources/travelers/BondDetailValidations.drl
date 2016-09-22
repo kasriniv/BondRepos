@@ -12,7 +12,9 @@ when
 then
 System.out.println("Passed BondDetailvalidations");
 
- 
+modify ($neb){
+setReason("BondDetailValidationPassed");
+}
 
 end
 
