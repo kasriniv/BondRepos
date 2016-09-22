@@ -23,7 +23,7 @@
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
   </fixtures>
-  <lastRunResult>2016-09-22 17:18:24.737 UTC</lastRunResult>
+  <lastRunResult>2016-09-22 17:19:00.708 UTC</lastRunResult>
   <rules>
     <string>HighPriorityRule</string>
     <string>LowPriorityRule</string>
