@@ -5,5 +5,9 @@ import java.lang.Number;
 rule "LowPriorityRule"
 	dialect "mvel"
 	when
+		RequestDO( highPriority == false )
 	then
+		System.out.println("hi i am going to sleep now..");
+		Thread.sleep(4000);
+		System.out.println("woke up after 4 seconds..are you still my priority? ..");
 end
