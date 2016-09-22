@@ -9,6 +9,6 @@ travelers.Bond( )
 travelers.NewBondEligible( reason=="Passed Premium Validation")
 
 then
-System.out.println("hi from othervalidations");
+System.out.println("hi from BondDetailvalidations");
 end
 
