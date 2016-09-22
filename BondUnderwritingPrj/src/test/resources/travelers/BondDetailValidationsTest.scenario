@@ -11,7 +11,13 @@
     </fact-data>
     <fact-data>
       <type>NewBondEligible</type>
-      <fieldData/>
+      <fieldData>
+        <field-data>
+          <name>reason</name>
+          <value>Passed Premium Validation</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
       <name>nbe</name>
       <isModify>false</isModify>
     </fact-data>
