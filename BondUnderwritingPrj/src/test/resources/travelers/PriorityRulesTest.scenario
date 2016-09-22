@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>highPriority</name>
-          <value>false</value>
+          <value>true</value>
           <nature>1</nature>
         </field-data>
       </fieldData>
@@ -16,7 +16,7 @@
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>lowpriorityrule</name>
+      <name>highpriorityrule</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>0</executionTimeResult>
