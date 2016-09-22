@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "HighPriorityRule"
 	dialect "mvel"
+	ruleflow-group "highpriorityrule"
 	when
+		RequestDO( highPriority == true )
 	then
+		System.out.println("quick, act fast, move it !! let's go!");
 end
