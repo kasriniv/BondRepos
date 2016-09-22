@@ -10,11 +10,11 @@ when
    $neb:NewBondEligible( reason=="Passed Premium Validation")
 
 then
-System.out.println("Passed BondDetailvalidations");
+System.out.println("Before Passed BondDetailvalidations");
 
 modify ($neb){
 setReason("BondDetailValidationPassed");
 }
-
+System.out.println("After Passed BondDetailvalidations");
 end
 
