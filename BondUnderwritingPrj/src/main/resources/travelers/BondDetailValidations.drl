@@ -12,10 +12,6 @@ when
 then
 System.out.println("Passed BondDetailvalidations");
 
-//NewBondEligible neb2=new NewBondEligible( )
-//neb2.setEligible(true);
-  // neb2.setReason("BondDetailValidationPassed"); 
- //insert (neb2);
  
  modify ($neb){
      setEligible(true);
